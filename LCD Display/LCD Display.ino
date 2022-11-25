@@ -16,8 +16,8 @@ LiquidCrystal_I2C lcd(0x27, 20, 4);
 void setup()
 {
   randomSeed(analogRead(random_analog));
-	lcd.begin();
-	lcd.backlight();
+  lcd.begin();
+  lcd.backlight();
 
   generate_rand();
   shuffle();
